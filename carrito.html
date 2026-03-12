@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebbi Vapes - Carrito de compras</title>
+    <link rel="icon" type="image/png"
+        href="./recursos/imagenes/vaping-logovector-illustration-template-design_757387-4874.jpg">
+    <link rel="stylesheet" href="./recursos/css/index.css">
+</head>
+
+<body>
+
+    <header class="header-con-fondo">
+        <img src="./recursos/imagenes/black-and-purple-galaxy-etksfankv1ilbz4c.jpg" alt="logonebbi">
+
+        <h1 class="logo-texto-nebbi">NEBBI</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="info.html">INFO</a></li>
+            </ul>
+            <div class="toggle-button">
+                <input type="checkbox" id="switchTema">
+                <label for="switchTema" class="slider"></label>
+            </div>
+        </nav>
+
+        <div class="search-cart">
+            <div class="search-box">
+                <input type="text" placeholder="BUSCAR">
+                <img src="./recursos/imagenes/magnifying_glass_search_icon_208685.png" alt="Icono de lupa para busqueda"
+                    class="lupa-imagen">
+            </div>
+
+            <a href="carrito.html" class="cart-button" aria-label="Ir al carrito de compras">
+                <img src="./recursos/imagenes/107831.png" alt="Icono de carrito de compras" class="carrito-imagen">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-content-container">
+            <div class="content-box">
+                <h3>Tu Carrito de Compras</h3>
+
+                <!-- ✔ AQUÍ SE INSERTAN LOS PRODUCTOS DEL CARRITO -->
+                <div id="lista-carrito"></div>
+
+                <!-- ✔ TOTAL DINÁMICO -->
+                <div class="total-carrito">
+                    <p id="total-carrito">TOTAL DEL CARRITO: ARS $ 0</p>
+                </div>
+
+                <div class="pago-area">
+                    <a href="pagos.html" class="btn-pagar" id="btnPagar">PAGAR</a>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-item">
+            <a href="https://wa.me/3512167944" target="_blank">
+                <img src="./recursos/imagenes/WhatsApp.svg.png" alt="logo WhatsApp" class="logo-whatsapp">
+            </a>
+            <p>WhatsApp<br>3512167944</p>
+        </div>
+
+        <div class="footer-item">
+            <a href="https://workspace.google.com/intl/es-419_ar/gmail/" target="_blank">
+                <img src="./recursos/imagenes/logo-Gmail-1.png" alt="logo gmail" class="logo-gmail">
+            </a>
+            <p>Gmail<br>nebbivapes@gmail.com</p>
+        </div>
+
+        <div class="footer-item">
+            <a href="https://www.instagram.com/NebbiVapes" target="_blank">
+                <img src="./recursos/imagenes/ig.png" alt="logo instagram" class="logo-instagram">
+            </a>
+            <p>Instagram<br>@NebbiVapes</p>
+        </div>
+    </footer>
+
+    <script src="./recursos/js/temas.js"></script>
+    <script src="./recursos/js/carrito.js" type="module"></script>
+
+</body>
+
+</html>

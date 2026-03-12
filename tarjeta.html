@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebbi Vapes - Formulario Tarjeta</title>
+    <link rel="icon" type="image/png"
+        href="./recursos/imagenes/vaping-logovector-illustration-template-design_757387-4874.jpg">
+    <link rel="stylesheet" href="./recursos/css/index.css">
+</head>
+
+<body>
+
+    <header class="header-con-fondo">
+        <img src="./recursos/imagenes/black-and-purple-galaxy-etksfankv1ilbz4c.jpg" alt="logonebbi">
+
+        <h1 class="logo-texto-nebbi">NEBBI</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="info.html">INFO</a></li>
+            </ul>
+            <div class="toggle-button">
+                <input type="checkbox" id="switchTema">
+                <label for="switchTema" class="slider"></label>
+            </div>
+        </nav>
+
+        <div class="search-cart">
+            <div class="search-box">
+                <input type="text" placeholder="BUSCAR">
+                <img src="./recursos/imagenes/magnifying_glass_search_icon_208685.png" alt="Icono de lupa para busqueda"
+                    class="lupa-imagen">
+            </div>
+
+            <a href="carrito.html" class="cart-button" aria-label="Ir al carrito de compras">
+                <img src="./recursos/imagenes/107831.png" alt="Icono de carrito de compras" class="carrito-imagen">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-content-container">
+            <div class="content-box">
+
+                <form class="formulario-tarjeta" action="" method="post">
+                    <h2 class="titulo-formulario">Ingrese datos de la tarjeta</h2>
+
+                    <div class="campo-pago">
+                        <label for="numero-tarjeta">Numero de tarjeta</label>
+                        <input type="text" id="numero-tarjeta" name="numero-tarjeta" placeholder="XXXX XXXX XXXX XXXX"
+                        maxlength="16" required>
+                        
+                    </div>
+
+                    <div class="campo-pago">
+                        <label for="nombre-titular">Nombre</label>
+                        <input type="text" id="nombre-titular" name="nombre-titular" autocomplete="off" required>
+                        
+                    </div>
+
+                    <div class="campo-pago">
+                        <label for="fecha-vencimiento">Fecha de vencimiento</label>
+                        <input type="text" id="fecha-vencimiento" name="fecha-vencimiento" placeholder="DD/MM/AA" required>
+                          
+                    </div>
+
+                    <div class="campo-pago">
+                        <label for="codigo-seguridad">Codigo de seguridad</label>
+                        <input type="password" id="codigo-seguridad" name="codigo-seguridad" placeholder="CVV" maxlength="4" required>
+                            
+                    </div>
+
+                    <div class="boton-contenedor">
+                        <button type="submit" class="boton-finalizar-compra">FINALIZAR COMPRA</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-item">
+            <a href="https://wa.me/3512167944" target="_blank">
+                <img src="./recursos/imagenes/WhatsApp.svg.png" alt="logo WhatsApp" class="logo-whatsapp">
+            </a>
+            <p>WhatsApp<br>3512167944</p>
+        </div>
+
+        <div class="footer-item">
+            <a href="https://workspace.google.com/intl/es-419_ar/gmail/" target="_blank">
+                <img src="./recursos/imagenes/logo-Gmail-1.png" alt="logo gmail" class="logo-gmail">
+            </a>
+            <p>Gmail<br>nebbivapes@gmail.com</p>
+        </div>
+
+        <div class="footer-item">
+            <a href="https://www.instagram.com/NebbiVapes" target="_blank">
+                <img src="./recursos/imagenes/ig.png" alt="logo instagram" class="logo-instagram">
+            </a>
+            <p>Instagram<br>@NebbiVapes</p>
+        </div>
+    </footer>
+
+    <script src="./recursos/js/temas.js"></script>
+    <script src="./recursos/js/validacion-formulario.js" type="module"></script>
+
+    <div id="toast-compra" class="toast oculto">¡Compra realizada con éxito!</div>
+
+</body>
+
+</html>

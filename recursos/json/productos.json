@@ -1,0 +1,131 @@
+[
+  {
+    "nombre": "METEOR",
+    "imagen": "./recursos/imagenes/vuse-go-1000-manzana-verde-20.png",
+    "nicotina": "5%",
+    "puffs": "1800",
+    "descripcion": "Nuestra formación de nicotina del 2%. METEORITO NEBULOSA se ha unido a nuestra línea Nebulan en Europa. Con una mezcla equilibrada de sabores atrevidos y 2% de nicotina, Meteor seguramente será un éxito en el nebuloso universo.",
+    "precio": "$20.000"
+},
+  {
+    "nombre": "ASTEROID",
+    "imagen": "./recursos/imagenes/22-copia-300x300.png",
+    "nicotina": "5%",
+    "puffs": "1800",
+    "descripcion": "Según una escala del más pequeño al más grande, los asteroides se consideran una de las formaciones rocosas más pequeñas del Universo. Asteroide NEBULOSO es nuestra primera formación de nuestro universo ahumado.",
+    "precio": "$24.000"
+  },
+  {
+    "nombre": "PLANET",
+    "imagen": "./recursos/imagenes/peach-300x300.png",
+    "nicotina": "5%",
+    "puffs": "1800",
+    "descripcion": "Los planetas son las siguientes formaciones más grandes del Universo, situadas en nuestro sistema solar orbitando alrededor del Sol. Planeta NEBULOSA es nuestra creación de 2800 bocanadas.",
+    "precio": "$25.000"
+    
+  },
+  {
+    "nombre": "ATMOSPHERE",
+    "imagen": "./recursos/imagenes/22-copiak-600x600.png",
+    "nicotina": "0%",
+    "puffs": "1800",
+    "descripcion": "La atmósfera es lo que rodea a cada cuerpo celeste en el espacio. Es donde el tiempo no existe y la libertad es infinita. NEBULOSA Atmosfera está libre de nicotina. Es nuestro origen Cero 0%.",
+    "precio": "$27.000"
+  },
+  {
+    "nombre": "COMET",
+    "imagen": "./recursos/imagenes/img_21617_dpku61dcme1xsg5v.webp",
+    "nicotina": "5%",
+    "puffs": "3000",
+    "descripcion": "Comet combina un sabor intenso con un golpe firme gracias a su 5% de nicotina. Ofrece una experiencia equilibrada y duradera, ideal para quienes buscan potencia sin perder suavidad en cada calada.",
+    "precio": "$21.000"
+  },
+  {
+    "nombre": "GALAXY",
+    "imagen": "./recursos/imagenes/ef3b6ad1082859e567aa48adefd6e886debc8a92ec42ab876c81dc9ea053d6a6209130.jpg",
+    "nicotina": "2%",
+    "puffs": "1500",
+    "descripcion": "Galaxy ofrece una experiencia suave y ligera, perfecta para quienes prefieren un vapor más relajado. Su mezcla equilibrada brinda buen sabor sin ser demasiado fuerte.",
+    "precio": "$21.000"
+  },
+  {
+    "nombre": "ECLIPSE",
+    "imagen": "./recursos/imagenes/lava-hot-bunny-uva-hielo.jpg",
+    "nicotina": "5%",
+    "puffs": "6000",
+    "descripcion": "Eclipse destaca por su intensidad y un golpe marcado del 5%. Su mezcla está pensada para quienes buscan una calada firme, estable y con un perfil de sabor profundo.",
+    "precio": "$23.000"
+  },
+  {
+    "nombre": "STARDUST",
+    "imagen": "./recursos/imagenes/lava-hot-bunny-hielo-exuberante.jpg",
+    "nicotina": "0%",
+    "puffs": "1000",
+    "descripcion": "Stardust brinda un sabor limpio y suave sin nicotina. Es ideal para quienes prefieren disfrutar del vapor sin golpe, manteniendo una sensación ligera y agradable.",
+    "precio": "$23.000"
+  },
+  {
+    "nombre": "NEBULA",
+    "imagen": "./recursos/imagenes/lava-hot-bunny-desnudo.jpg",
+    "nicotina": "5%",
+    "puffs": "4000",
+    "descripcion": "Nebula ofrece un perfil intenso con nubes densas y un golpe firme gracias a su 5%. Su sabor equilibrado lo hace ideal para quienes buscan una experiencia marcada y estable.",
+    "precio": "$25.000"
+  },
+  {
+    "nombre": "COSMOS",
+    "imagen": "./recursos/imagenes/img_21617_z3abnbomc22q9jv.webp",
+    "nicotina": "2%",
+    "puffs": "4000",
+    "descripcion": "Cosmos combina suavidad y sabor con un moderado 2% de nicotina. Es perfecto para quienes quieren una experiencia equilibrada sin perder definición en cada calada.",
+    "precio": "$22.000"
+  },
+  {
+    "nombre": "ORBIT",
+    "imagen": "./recursos/imagenes/img_7079-31cb5d21a1e9ee2c5f17219717209600-480-0.jpeg",
+    "nicotina": "5%",
+    "puffs": "800",
+    "descripcion": "Orbit se caracteriza por un sabor firme y un golpe intenso gracias a su 5% de nicotina. Su mezcla está diseñada para quienes buscan un vaporizador con carácter y presencia, entregando una calada potente y estable desde el primer puff hasta el último.",
+    "precio": "$15.000"
+  },
+  {
+    "nombre": "TITAN",
+    "imagen": "./recursos/imagenes/88VapeRechargePodKitMenthol_512x640.webp",
+    "nicotina": "0%",
+    "puffs": "6000",
+    "descripcion": "Titan ofrece una experiencia totalmente libre de nicotina, perfecta para quienes buscan disfrutar únicamente del sabor. Con una mezcla fresca y ligera, brinda una sensación suave y equilibrada que acompaña perfectamente un uso diario sin golpe de garganta.",
+    "precio": "$25.000"
+  },
+  {
+    "nombre": "QUASAR",
+    "imagen": "./recursos/imagenes/advanced-classic-vape-pen--1.webp",
+    "nicotina": "5%",
+    "puffs": "2500",
+    "descripcion": "Quasar combina un perfil intenso del 5% con sabores vibrantes que llenan cada calada. Su mezcla ofrece una sensación firme y prolongada, ideal para quienes buscan un nivel alto de golpe acompañado de un sabor equilibrado y bien definido.",
+    "precio": "$16.000"
+  },
+  {
+    "nombre": "VOYAGER",
+    "imagen": "./recursos/imagenes/vuse-go-1000-mango-ice-20.png",
+    "nicotina": "2%",
+    "puffs": "2500",
+    "descripcion": "Voyager está diseñado para quienes quieren una experiencia suave y equilibrada. Con un 2% de nicotina, ofrece un golpe moderado y sabores bien integrados, ideal para acompañar una calada cómoda, ligera y pensada para disfrutar sin excesos.",
+    "precio": "$22.000"
+  },
+  {
+    "nombre": "MOON",
+    "imagen": "./recursos/imagenes/vuse-go-1000-fresa-ice-20.png",
+    "nicotina": "5%",
+    "puffs": "500",
+    "descripcion": "Moon reúne un sabor intenso con la potencia del 5%, brindando una experiencia firme y consistente. Su mezcla está pensada para quienes buscan un golpe pronunciado y un perfil de sabor duradero, manteniendo una calada estable en cada uso.",
+    "precio": "$19.000"
+  },
+  {
+    "nombre": "VOID",
+    "imagen": "./recursos/imagenes/vuse-go-1000-cereza-20.png",
+    "nicotina": "0%",
+    "puffs": "3000",
+    "descripcion": "Void brinda una experiencia suave libre de nicotina. Su sabor limpio y equilibrado lo convierte en una opción ideal para quienes buscan un vapor relajado y sin golpe.",
+    "precio": "$18.000"
+  }
+]
